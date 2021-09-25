@@ -242,7 +242,7 @@
         font-size: 12px;
     }
 }
-@media (max-width:337px){
+@media (max-width:425px){
 
     .banner_img h1 {
         font-size: 9px;
