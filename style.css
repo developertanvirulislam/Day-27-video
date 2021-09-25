@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main_logo_div{
+    clear: both;
+    width: 100%;
+    background-color: #3498db;
+}
+.logo_div{
+    width: 30%;
+    float: left;
+}
+.logo_div img{
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 4px;
+    width: 10%;
+}
+.menu_div{
+    width: 70%;
+    float: right;
+    text-align: center;
+}
+.menu_div ul li{
+    display: inline-block;
+}
+.menu_div ul li a{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.banner_img{
+    text-align: center;
+    background: url(https://wpnewsify.com/wp-content/uploads/2017/09/Logo-Slider.jpg) no-repeat fixed;
+    padding: 230px 0px;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-size: 20px;
+}
+.banner_img h1 {
+    background-color: rgb(0 0 0 / 63%);
+    color: white;
+    font-size: 37px;
+    padding: 10px 15px;
+    width: 40%;
+    margin: auto;
+    border-radius: 6px;
+}
+.banner_img h3 {
+    background-color: rgb(0 0 0);
+    font-size: 29px;
+    color: white;
+    padding: 10px 15px;
+    width: 35%;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.banner_img button{
+    background-color: #16a085;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+}
+.banner_img a{
+    border-radius: 10px;
+    text-decoration: none;
+    background: #16a085;
+    display: block;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>service section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.service_section{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 50px 0px;
+    padding-bottom: 100px;
+    font-family: sans-serif;
+}
+.service_header{
+    font-size: 15px;
+    margin-left: 25%;
+    padding: 50px 10px;
+    width: 50%;
+}
+.service_content{
+    width: 90%;
+    margin: auto;
+}
+.web_desing {
+    width: 30%;
+    text-align: center;
+    float: left;
+    line-height: 20px;
+    margin: 10px;
+}
+.i i{
+    font-size: 40px;
+    color: #ffffff;
+    padding: 10px 0px;
+}
+.i {
+    background-color:#2980b9;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>about_section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.about {
+    display: flex;
+    margin-bottom: 40px;
+}
+.abut_full_div {
+    display: flex;
+}
+.about_content {
+    width: 100%;
+}
+.about_section {
+    width: 100%;
+    padding: 60px 0px;
+    font-family: sans-serif;
+}
+.about_img {
+    width: 20%;
+    height: auto;
+    margin-right: 29px;
+}
+.about_img img {
+    width: 100%;
+    height: auto;
+}
+.about_text {
+    width: 59%;
+    text-align: left;
+    font-size: 17px;
+    margin-right: 49px;
+}
+.about_text span{
+    font-size: 25px;
+}
+.notice_div {
+    width: 22%;
+    float: left;
+}
+.notice_div h2{
+    text-align: center;
+}
+.notice_div ul{
+    list-style: none;
+    text-align: center;
+}
+.notice_div ul li{
+    border: 1px solid #ddd;
+    padding: 3px 0px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>contact_section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.contact_section{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+}
+.contact_header{
+    padding: 30px 0px;
+    font-family: serif;
+}
+.address{
+    float: left;
+    width: 33%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.email{
+    float: left;
+    width: 33%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+}
+.phone{
+    float: left;
+    width: 33%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+}
+.contact_section i{
+    font-size: 25px;
+    color: #22c3a3;
+    padding-bottom: 15px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>social icon>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.footer_div ul {
+    display: inline-block;
+    text-align: right;
+}
+.footer_div ul li{
+    display: inline-block;
+}
+.footer_div ul li a{
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    padding: 20px 15px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>footer_section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.footer_div {
+    width: 100%;
+    background-color: #2c3e50;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 15px 0px;
+    font-family: sans-serif;
+    float: left;
+    margin-left: 30px;
+}
