@@ -243,7 +243,10 @@
     }
 }
 @media (max-width:425px){
-
+    .menu_div ul li a {
+        padding: 17px 10px;
+        font-size: 14px;
+    }
     .banner_img h1 {
         font-size: 9px;
     }
@@ -271,7 +274,7 @@
     }
     .notice_div {
         top: 589px;
-        left: -101px;
+        left: -114px;
     }
     .notice_div ul li {
         border: 1px solid #ddd;
